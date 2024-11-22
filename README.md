@@ -27,16 +27,14 @@ First, clone the original OpenLambda repository:
 git clone https://github.com/open-lambda/open-lambda.git
 cd open-lambda
 ```
-### Step 2: Replace/Add Modified Files
-Replace or add the following modified files to the `open-lambda` folder:
-
-1. **`app/handler.py`:** Contains the core application logic for image processing.
-2. **`Dockerfile`:** Specifies the Docker environment for the project.
-3. **`requirements.txt`:** Lists all Python dependencies.
-
-To copy these files from your local directory (assuming they are in a folder called `modified_files`), run the following command:
+### Step 2: Clone this repository
+Next, clone this repository using following command:
 ```bash
-cp -r ../modified_files/* .
+git clone https://github.com/HardiDesai02/OpenLambda_PASch.git
+```
+After cloning it, copy all the contents (files and folders) from this repository into the open-lambda directory. Use the following command:
+```bash
+cp -r ../OpenLambda_PASch/* .
 ```
 Ensure the following:
 
